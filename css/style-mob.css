@@ -8,7 +8,7 @@
     left: 25%;
   }
   .slide-link.left .arrow {
-    background: url("../../i/prev.svg") no-repeat;
+    background: url("../i/prev.svg") no-repeat;
   }
   .slide-link.left.orange .arrow {
     background-position: 16px 38px;
@@ -24,7 +24,7 @@
     right: 25%;
   }
   .slide-link.right .arrow {
-    background: url("../../i/next.svg") no-repeat;
+    background: url("../i/next.svg") no-repeat;
   }
   .slide-link.right.pink .arrow {
     background-position: 0 38px;
@@ -132,10 +132,11 @@
     line-height: 28px;
     text-align: center;
     width: 100%;
+    margin-bottom: 15px;
   }
-  .status input {
+  .status__input {
     width: 242px;
-    height: 42px;
+    height: 42px !important;
     font-size: 17px;
     line-height: 20px;
     color: #C2C2C2;
