@@ -1,0 +1,32 @@
+.catalog{
+    display: none;
+}
+
+@media (max-width: 992px){
+    .catalog{
+
+        margin: auto;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 365px;
+        height: 68px;
+        background: #FFFFFF;
+        box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.08);
+        span{
+            font-family: Arial;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 17px;
+            color: #2756A5;
+            display: block;
+        }
+    }
+}
+
+@media (max-width: 385px){
+    .catalog{
+        width: 320px;
+    }
+}

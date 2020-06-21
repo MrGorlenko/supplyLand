@@ -1,0 +1,44 @@
+.nav__link_mobile{
+    display: none;
+}
+
+@media (max-width: 992px){
+
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        border: none;
+        .logo{
+            background: url(/i/logo-mob.png) center center no-repeat;
+            top: 0;
+
+            // z-index: 21;
+        }
+        ul{
+            display: flex;
+            justify-content: space-between;
+            padding: 0 20px;
+        }
+    }
+
+    .nav{
+        &__link{
+            display: none;
+            &_mobile{
+                display: block;
+            }
+        }
+    }
+
+    header .tel, header .search{
+        display: none;
+    }
+    header{
+        padding-top: 20px;
+        padding-bottom: 0;
+    }
+    nav{
+        height: 134px;
+    }
+}

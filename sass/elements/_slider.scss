@@ -1,0 +1,114 @@
+@media (max-width: 992px){
+
+    /* ARROW */
+    .slide-link.right, .slide-link.left{
+        span{
+            display: none;
+        }
+    }
+
+    .slide-link.left{
+        top: 390px;
+        left: 25%;
+        .arrow{
+            background: url('../../i/prev.svg') no-repeat;
+        }
+    }
+    .slide-link.left.orange .arrow{
+        background-position: 16px 38px;    
+    }
+    .slide-link.left.blue .arrow{
+        background-position: 16px 38px;    
+    }
+    .slide-link.left.pink .arrow{
+        background-position: 16px 38px;    
+    }
+
+    .slide-link.right{
+        top: 390px;
+        right: 25%;
+        .arrow{
+            background: url('../../i/next.svg') no-repeat;
+        }
+    }
+
+    .slide-link.right.pink .arrow {
+        background-position: 0 38px;
+    }
+
+    .slide-link.right.orange .arrow {
+        background-position: 0 38px;
+    }
+
+    .slide-link.right.blue .arrow {
+        background-position: 0 38px;
+        right: 0;
+    }
+
+    /* ARROW */
+
+    /* DOTS */
+
+    .main-slider section.blue h1 a{
+        color: #191919;
+        border: none;
+    }
+
+    .main-slider section.blue img{
+        bottom: -10px;
+    }
+
+    /* DOTS */
+    a, .close-link{
+        font-style: normal;
+    }
+
+    i{
+        font-style: normal;
+        width: 260px;
+        margin: auto;
+        margin-top: 15px;
+        display: block;
+    }
+
+    p, nav ul, .switcher, .container, .carousel{
+        margin-top: 45px;
+    }
+
+
+    /* CONTENT */
+
+
+    .main-slider section.pink .slider-block-link{
+        position: relative;
+        right: auto;
+    }
+
+    .main-slider section.orange .slider-block-link{
+        &:first-child{
+            display: none;
+        }
+        &:last-child{
+            display: none;
+        }
+    }
+
+    .main-slider section.orange .bg1{
+        display: none;
+    }
+
+    .main-slider section.orange .bg2{
+        display: none;
+    }
+
+    .main-slider section.orange .link-container{
+        display: flex;
+        justify-content: center;
+        padding-left: 0;
+    }
+    /* CONTENT */
+}
+
+// display: flex;
+//     justify-content: center;
+//     padding-left: 0;

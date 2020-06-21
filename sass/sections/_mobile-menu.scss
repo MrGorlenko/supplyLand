@@ -1,0 +1,45 @@
+.mobile-menu{
+    display: none;
+}
+
+@media (max-width: 992px){
+
+    .mobile-menu{
+        display: block;
+        height: 450px;        
+        width: 100%;
+        background: #fff;
+
+        position: absolute;
+        top: 0;
+        left: 0;
+
+        z-index: -1;
+        // z-index: 20;
+
+        opacity: 0;
+        transition: opacity .3s ease;
+
+        padding-top: 20px;
+        }
+
+    .menu__container{
+        padding-top: 10px;
+        ul{
+            height: 280px;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            padding-left: 20px;
+            a{
+                text-decoration: none;
+                color: #262626;
+                font-weight: bold;
+                font-size: 24px;
+                border-bottom: none;
+            }
+        }
+    }
+
+}
