@@ -28,6 +28,30 @@ $(document).ready(function(){
         arr[4].removeClass('swiper__button_active')
     })
 
+    arr[2].click(function(){
+        arr[0].removeClass('swiper__button_active')
+        arr[2].addClass('swiper__button_active')
+        arr[1].removeClass('swiper__button_active')
+        arr[3].removeClass('swiper__button_active')
+        arr[4].removeClass('swiper__button_active')
+    })
+
+    arr[3].click(function(){
+        arr[1].removeClass('swiper__button_active')
+        arr[3].addClass('swiper__button_active')
+        arr[2].removeClass('swiper__button_active')
+        arr[0].removeClass('swiper__button_active')
+        arr[4].removeClass('swiper__button_active')
+    })
+
+    arr[4].click(function(){
+        arr[1].removeClass('swiper__button_active')
+        arr[4].addClass('swiper__button_active')
+        arr[2].removeClass('swiper__button_active')
+        arr[3].removeClass('swiper__button_active')
+        arr[0].removeClass('swiper__button_active')
+    })
+
 
     // $(`.swiper__button_3`).click(function(){
 
