@@ -436,6 +436,12 @@ footer .mobile-links {
     padding-left: 3%;
     margin-top: -120px;
   }
+  .about__content {
+    width: 96%;
+  }
+  .about-content_none {
+    display: none;
+  }
 }
 
 @media (max-width: 992px) {

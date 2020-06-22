@@ -9,4 +9,16 @@
 
         margin-top: -120px;
     }
+
+    .about{
+        &__content{
+            width: 96%;
+        }
+    }
+
+    .about-content{
+        &_none{
+            display: none;
+        }
+    }
 }
