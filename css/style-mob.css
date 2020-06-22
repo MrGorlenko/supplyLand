@@ -439,6 +439,19 @@ footer .mobile-links {
   .about__content {
     width: 96%;
   }
+  .about__content p {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 139.99%;
+    margin-top: 28px;
+    height: 265px;
+  }
+  .about__content p span {
+    color: #069;
+    text-decoration: underline;
+  }
   .about-content_none {
     display: none;
   }

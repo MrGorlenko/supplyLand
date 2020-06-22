@@ -13,6 +13,25 @@
     .about{
         &__content{
             width: 96%;
+
+            p{
+                font-family: Arial;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 139.99%;
+
+                margin-top: 28px;
+
+                height: 265px;
+
+                span{
+                    color: #069;
+                    text-decoration: underline;
+                }
+
+            }
+
         }
     }
 
