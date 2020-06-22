@@ -1,28 +1,47 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <meta charset="utf-8">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
     <title>SupplyLand</title>
-    <link rel="shortcut icon" href="/i/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="../i/favicon.ico" type="image/x-icon" />
     
-	<link href="/css/reset.css" rel="stylesheet" type="text/css">
-	<link href="/css/highslide.css" rel="stylesheet" type="text/css">
-    <link href="/css/style.css" rel="stylesheet" type="text/css">
+	<link href="../css/reset.css" rel="stylesheet" type="text/css">
+	<link href="../css/highslide.css" rel="stylesheet" type="text/css">
+	<link href="../css/style.css" rel="stylesheet" type="text/css">
 	
-	<script src="/js/jquery-1.7.2.min.js"></script>
-	<script src="/js/jquery.placeholder.min.js"></script>
-	<script src="/js/jquery.ui-slider.js"></script>
-	<script src="/js/common.js"></script>
+	<link rel="stylesheet" href="../css/style-mob.css">
+
+
+	
+
+	<script src="../js/jquery-1.7.2.min.js"></script>
+	<script src="../js/jquery.placeholder.min.js"></script>
+	<script src="../js/jquery.ui-slider.js"></script>
+	<script src="../js/common.js"></script>
+
 	
 	
 	<!--[if lt IE 9]>
 	<script src="/js/html5.js"></script>
 	<![endif]-->
 	
-	<script src="/js/jcarousellite.js"></script>
+	<script src="../js/jcarousellite.js"></script>
 	
-	<script src="/js/highslide-full.js"></script>
-	<script src="/js/galsettings.js"></script>
+	<script src="../js/highslide-full.js"></script>
+	<script src="../js/galsettings.js"></script>
+
+
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+    
+    <script src="https://unpkg.com/swiper/js/swiper.js"></script>
+	<script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+
+	<script src='../js/mobile/mobile.js'></script>
+	<script src='../js/mobile/swiper.js'></script>
+	
 	
 </head>
 <body>
@@ -37,26 +56,28 @@
 					</div>
 				</div>
 				<!-- ГЛАВНОЕ МЕНЮ -->
-				<nav> 
+				<nav id='nav'> 
 					<a href="#" class="logo"></a>
 					<ul class="grid-width-942 center-block">
-						<li class="f-left act"><a href="#">О компании</a></li>
-						<li class="f-left"><a href="#">Каталог</a></li>
-						<li class="f-left"><a href="#">Решения</a></li>
-						<li class="f-right social">
+						<li id=burger-on class="nav__link_mobile"><img src="../i/burger.svg" alt=""></li>
+						<li class="nav__link f-left act"><a href="#">О компании</a></li>
+						<li class="nav__link f-left"><a href="#">Каталог</a></li>
+						<li class="nav__link f-left"><a href="#">Решения</a></li>
+						<li class="nav__link f-right social">
 							<a href="#" class="isocial twitter"></a>
 							<a href="#" class="isocial youtube"></a>
 							<a href="#" class="isocial facebook"></a>
 						</li>
-						<li class="f-right"><a href="#">Контакты</a></li>
-						<li class="f-right"><a href="#">Сервис</a></li>
+						<li class="nav__link f-right"><a href="#">Контакты</a></li>
+						<li class="nav__link f-right"><a href="#">Сервис</a></li>
+						<li class="nav__link_mobile"><img src="../i/little-guy.svg" alt=""></li>
 					</ul>
 				</nav>
 				<!-- /ГЛАВНОЕ МЕНЮ -->
 			</header>
 			
 			<!-- КРОШКИ -->
-			<div class="breadcrumbs-container grid-width-942 center-block">
+			<div class="chit  breadcrumbs-container grid-width-942 center-block">
 				<div class="breadcrumbs center-block">
 					<ul>
 						<li><a href="#"></a></li>
@@ -80,7 +101,7 @@
 			<!-- /КРОШКИ -->
 			
 			<!-- КОНТЕНТ -->
-			<article class="grid-width-942 center-block">
+			<article class="content-desctop grid-width-942 center-block">
 				<div class="container wide-for-gallery">
 						<div class="f-left grid-width-702 grid-m-right-18">
 							<div class="grid-m-bottom-18">
@@ -155,9 +176,29 @@
 				</div>
 			</article>
 			<!-- /КОНТЕНТ -->
-		</div>
-	</div>
-	<footer>
+
+			<section class="about-company">
+
+				<h2>О компании</h2>
+
+				<!-- Slider main container -->
+			    <div class="swiper-container">
+				    <!-- Additional required wrapper -->
+				    <div class="swiper-wrapper">
+					    <!-- Slides -->
+					    <div class="swiper__button swiper__button_active swiper__button_1 swiper-slide">О нас</div>
+					    <div class="swiper__button swiper__button_2 swiper-slide">Наши успехи</div>
+					    <div class="swiper__button swiper__button_3 swiper-slide">Мы лидеры рынка</div>
+					    <div class="swiper__button swiper__button_4 swiper-slide">О сотрудниках</div>
+					    <div class="swiper__button swiper__button_5 swiper-slide">О партнерах</div>
+				    </div>
+		        </div>
+
+
+
+			</section>
+
+	<!-- <footer>
 		<div class="grid-width-942 center-block container grid-p-top-25">
 			<div class="f-left grid-width-174 grid-p-right-18">
 				&copy;&nbsp;2006-2013&nbsp;SupplyLand<br>
@@ -180,6 +221,8 @@
 				<a href="http://one-touch.ru" class="copyright">Создание сайтов<br><img src="/i/one-touch.png"></a>
 			</div>
 		</div>
-	</footer>
+	</footer> -->
+
+
 </body>
 </html>

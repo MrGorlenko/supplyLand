@@ -107,8 +107,18 @@
         padding-left: 0;
     }
     /* CONTENT */
-}
 
-// display: flex;
-//     justify-content: center;
-//     padding-left: 0;
+
+    /* SWIPER */
+
+
+    .swiper-container {
+        width: 97%;
+        height: 73px;
+
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+
+    /* SWIPER */
+}

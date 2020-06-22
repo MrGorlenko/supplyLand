@@ -1,0 +1,39 @@
+.swiper{
+    display: none;
+}
+
+@media (max-width: 992px){
+    .swiper{
+        display: block;
+        &__button{
+            height: 41px !important;
+
+            margin-top: 15px;
+
+            background: #FFFFFF;
+            box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.04);
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            color: #C4C4C4;
+
+            &_1{
+                width: 90px !important;
+                // margin-left: 10px !important;
+            }
+
+            &_2{
+                width: 100px !important;
+            }
+
+            &_active{
+                background: #2756A5;
+                color: white;
+            }
+
+
+        }
+    }
+}
