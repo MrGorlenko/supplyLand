@@ -21,13 +21,17 @@ footer{
 
     footer{
         background: none;
-        margin-top: 600px;
-
         height: 505px;
+        margin-top: 0;
 
         .mobile-links{
             display: block;
         }
+
+    }
+
+    .footer-main{
+        margin-top: 600px;
 
     }
 
@@ -94,7 +98,7 @@ footer{
         }
         &__mobile{
             display: block;
-        }
+        } 
         &__email{
             margin-top: 10px;
         }

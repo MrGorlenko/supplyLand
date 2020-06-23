@@ -279,11 +279,14 @@ footer .mobile-links {
 @media (max-width: 992px) {
   footer {
     background: none;
-    margin-top: 600px;
     height: 505px;
+    margin-top: 0;
   }
   footer .mobile-links {
     display: block;
+  }
+  .footer-main {
+    margin-top: 600px;
   }
   footer .link-img-block {
     display: flex;
