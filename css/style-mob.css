@@ -463,12 +463,7 @@ footer .mobile-links {
     text-decoration: underline;
   }
   .about-content_none {
-    position: absolute;
-    top: 0;
-    left: 0;
-    opacity: 0;
-    transition: opacity .3s ease;
-    z-index: -1;
+    display: none;
   }
 }
 
