@@ -1,0 +1,43 @@
+.mobile-feedback{
+    display: none;
+}
+
+@media (max-width: 992px){
+    .mobile-feedback{
+        display: block;
+        overflow: hidden;
+
+        position: relative;
+        height: 370px;
+
+        padding-left: 3%;
+        margin-top: 58px;
+        .all-feedbacks{
+            position: absolute;
+            top: 5px;
+            right: 20px;
+            height: 15px;
+        }
+
+        h2{
+            margin-bottom: 26px;
+        }
+    }
+
+    .feedback-slide{
+        width: 266px !important;
+        height: 262px;
+        background: #FFFFFF;
+        box-shadow: 0px 12px 50px rgba(0, 0, 0, 0.08);
+        padding: 0 32px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        h3{
+            font-weight: bold;
+            font-size: 17px;
+        }
+    }
+}

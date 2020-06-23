@@ -12,7 +12,8 @@ $(document).ready(function(){
       mySwiper2 = new Swiper ('.swiper-container-2', {
           direction: 'horizontal',
           loop: false,
-          initialSlide: 0
+          initialSlide: 0,
+          spaceBetween: 22
       })
 
     let arr = [$('.swiper__button_1'), $('.swiper__button_2'), $('.swiper__button_3'), $('.swiper__button_4'), $('.swiper__button_5')],
