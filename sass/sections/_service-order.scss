@@ -10,6 +10,17 @@
         }
         &__subtitle{
             display: none;
+            &_yes{
+                font-size: 16px;
+                text-align: start;
+                width: 90%;
+                padding-left: 5%;
+
+                span{
+                    margin-top: 15px;
+                    display: block;
+                }
+            }
         }
 
         &__form{

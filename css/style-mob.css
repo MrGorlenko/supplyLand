@@ -567,6 +567,16 @@ footer .mobile-links {
   .service-order__subtitle {
     display: none;
   }
+  .service-order__subtitle_yes {
+    font-size: 16px;
+    text-align: start;
+    width: 90%;
+    padding-left: 5%;
+  }
+  .service-order__subtitle_yes span {
+    margin-top: 15px;
+    display: block;
+  }
   .service-order__form {
     box-shadow: 0px 8px 45px rgba(0, 0, 0, 0.09);
     width: 90%;
