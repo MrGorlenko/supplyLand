@@ -8,13 +8,17 @@ $(document).ready(function(){
         slidesPerView: 2.5,
         spaceBetween: 12
         
+      }),
+      mySwiper2 = new Swiper ('.swiper-container-2', {
+          direction: 'horizontal',
+          loop: false,
+          initialSlide: 0
       })
 
     let arr = [$('.swiper__button_1'), $('.swiper__button_2'), $('.swiper__button_3'), $('.swiper__button_4'), $('.swiper__button_5')],
 
     aboutConent = [$('.about-content-1'), $('.about-content-2'), $('.about-content-3'), $('.about-content-4'), $('.about-content-5')];
 
-    // $('#about-content').innerHTML = arrText[0]
 
     arr[1].click(function(){
         arr[0].removeClass('swiper__button_active')

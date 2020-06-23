@@ -1,0 +1,21 @@
+.mobile-news{
+    display: none;
+}
+
+@media (max-width: 992px){
+    .mobile-news{
+        display: block;
+        padding-left: 3%;
+        height: 360px;
+        img{
+            margin-bottom: 22px;
+        }
+        a{
+            font-size: 21px;
+            color: #006699;
+        }
+        p{
+            margin-top: 5px;
+        }
+    }
+}
