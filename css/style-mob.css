@@ -558,7 +558,7 @@ footer .mobile-links {
     padding-bottom: 15px !important;
   }
   .service-order__title {
-    display: none;
+    margin-top: 35px;
   }
   .service-order__subtitle {
     display: none;
