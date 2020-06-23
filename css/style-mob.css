@@ -543,6 +543,7 @@ footer .mobile-links {
   }
   .feedback-slide {
     width: 266px !important;
+    margin-right: 22px;
     height: 262px;
     background: #FFFFFF;
     box-shadow: 0px 12px 50px rgba(0, 0, 0, 0.08);
