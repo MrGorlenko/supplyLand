@@ -438,6 +438,7 @@ footer .mobile-links {
   }
   .about__content {
     width: 96%;
+    position: relative;
   }
   .about__content p {
     font-family: Arial;
@@ -453,7 +454,12 @@ footer .mobile-links {
     text-decoration: underline;
   }
   .about-content_none {
-    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity .3s ease;
+    z-index: -1;
   }
 }
 
