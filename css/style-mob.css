@@ -578,6 +578,7 @@ footer .mobile-links {
   .form__container {
     display: flex;
     flex-direction: column;
+    width: 75%;
   }
   .form__container input {
     width: 98% !important;
