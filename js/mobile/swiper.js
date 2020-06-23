@@ -13,8 +13,7 @@ $(document).ready(function(){
           direction: 'horizontal',
           loop: false,
           initialSlide: 0,
-          slidesPerView: 1.5,
-          spaceBetween: 22
+          slidesPerView: 1,
       })
 
     let arr = [$('.swiper__button_1'), $('.swiper__button_2'), $('.swiper__button_3'), $('.swiper__button_4'), $('.swiper__button_5')],
