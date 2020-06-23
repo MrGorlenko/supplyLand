@@ -19,4 +19,21 @@
     .content-desctop{
         display: none;
     }
+
+    .container_mobile{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+
+        margin-top: 0px;
+        padding-top: 0px;
+
+        &_1{
+            padding-top: 45px;
+        }
+    }
+
+    .text-mobile_none{
+        display: none;
+    }
 }

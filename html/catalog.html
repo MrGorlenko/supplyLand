@@ -1,33 +1,38 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-    <meta charset="utf-8">
+<head> 
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
     <title>SupplyLand</title>
-    <link rel="shortcut icon" href="/i/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="../i/favicon.ico" type="image/x-icon" />
     
-	<link href="/css/reset.css" rel="stylesheet" type="text/css">
-	<link href="/css/highslide.css" rel="stylesheet" type="text/css">
-    <link href="/css/style.css" rel="stylesheet" type="text/css">
+	<link href="../css/reset.css" rel="stylesheet" type="text/css">
+	<link href="../css/highslide.css" rel="stylesheet" type="text/css">
+	<link href="../css/style.css" rel="stylesheet" type="text/css">
 	
-	<script src="/js/jquery-1.7.2.min.js"></script>
-	<script src="/js/jquery.placeholder.min.js"></script>
-	<script src="/js/jquery.ui-slider.js"></script>
-	<script src="/js/common.js"></script>
+	<link rel="stylesheet" href="../css/style-mob.css">
+
+	<script src="../js/jquery-1.7.2.min.js"></script>
+	<script src="../js/jquery.placeholder.min.js"></script>
+	<script src="../js/jquery.ui-slider.js"></script>
+	<script src="../js/common.js"></script>
 	
 	
 	<!--[if lt IE 9]>
 	<script src="/js/html5.js"></script>
 	<![endif]-->
 	
-	<script src="/js/jcarousellite.js"></script>
+	<script src="../js/jcarousellite.js"></script>
 	
-	<script src="/js/highslide-full.js"></script>
-	<script src="/js/galsettings.js"></script>
+	<script src="../js/highslide-full.js"></script>
+	<script src="../js/galsettings.js"></script>
+
+	<script src='../js/mobile/mobile.js'></script>
 	
 </head>
 <body>
 	<div id="content">
-		<div id="wrapper">
+		<div class='service-order' id="wrapper">
 			<header>
 				<div class="grid-width-942 center-block rel">
 					<div class="tel abs">+7 495 663-22-79</div>
@@ -36,27 +41,54 @@
 						<a href="#" class="search-btn abs"></a>
 					</div>
 				</div>
+
+
+				<div class="mobile-menu">
+
+					<nav> 
+						<a href="#" class="logo"></a>
+						<ul class="grid-width-942 center-block">
+							<li id=burger-off class="nav__link_mobile"><img src="../i/close-burger.svg" alt=""></li>
+
+							<li class="nav__link_mobile"><img src="../i/little-guy.svg" alt=""></li>
+						</ul>
+					</nav>
+
+					<div class="menu__container">
+						<ul>
+							<li> <a href="#"> О компании </a></li>
+							<li> <a href="#"> Каталог </a></li>
+							<li> <a href="#"> Бренды </a></li>
+							<li> <a href="#"> Новости </a></li>
+							<li> <a href="#"> Контакты </a></li>
+						</ul>
+					</div>
+
+				</div>
+
 				<!-- ГЛАВНОЕ МЕНЮ -->
-				<nav> 
+				<nav id='nav'> 
 					<a href="#" class="logo"></a>
 					<ul class="grid-width-942 center-block">
-						<li class="f-left act"><a href="#">О компании</a></li>
-						<li class="f-left"><a href="#">Каталог</a></li>
-						<li class="f-left"><a href="#">Решения</a></li>
-						<li class="f-right social">
+						<li id=burger-on class="nav__link_mobile"><img src="../i/burger.svg" alt=""></li>
+						<li class="nav__link f-left act"><a href="#">О компании</a></li>
+						<li class="nav__link f-left"><a href="#">Каталог</a></li>
+						<li class="nav__link f-left"><a href="#">Решения</a></li>
+						<li class="nav__link f-right social">
 							<a href="#" class="isocial twitter"></a>
 							<a href="#" class="isocial youtube"></a>
 							<a href="#" class="isocial facebook"></a>
 						</li>
-						<li class="f-right"><a href="#">Контакты</a></li>
-						<li class="f-right"><a href="#">Сервис</a></li>
+						<li class="nav__link f-right"><a href="#">Контакты</a></li>
+						<li class="nav__link f-right"><a href="#">Сервис</a></li>
+						<li class="nav__link_mobile"><img src="../i/little-guy.svg" alt=""></li>
 					</ul>
 				</nav>
 				<!-- /ГЛАВНОЕ МЕНЮ -->
 			</header>
 			
 			<!-- КРОШКИ -->
-			<div class="breadcrumbs-container grid-width-942 center-block">
+			<div class="chit breadcrumbs-container grid-width-942 center-block">
 				<div class="breadcrumbs center-block">
 					<ul>
 						<li><a href="#"></a></li>
@@ -136,113 +168,151 @@
 				
 				<div class="cats">
 				
-					<div class="container">
+					<div class="container container_mobile container_mobile_1">
 						<div class="f-left cat grid-width-222">
 							<div class="center"><img src="/materials/pic2.jpg" alt=""></div>
+							<img src="../i/catalog-1.png" alt="">
 							<h5><a href="#" class="cat-link">Допечатное оборудование</a></h5>
-							Оборудование для изготовления и контроля форм для офсетной, флексо- и высокой печати.
+							<span class='text-mobile_none'>Оборудование для изготовления и контроля форм для офсетной, флексо- и высокой печати.</span>
 						</div>
 						<div class="f-left cat grid-width-222 grid-m-left-18">
 							<div class="center"><img src="/materials/pic2.jpg" alt=""></div>
+							<img src="../i/catalog-1.png" alt="">
 							<h5><a href="#" class="cat-link">Печатное оборудование</a></h5>
-							Оборудование для листовой офсетной и трафаретной печати, печатные машины для избирательного и сплошного лакирования листовой продукции, в том числе УФ-лаками. Цифровые печатные машины для печати на бумаге и пластике. Офсетные печатные машины с превосходным качеством печати.
+							<span class='text-mobile_none'>Оборудование для листовой офсетной и трафаретной печати, печатные машины 
+							для избирательного и сплошного лакирования листовой продукции, в том числе УФ-лаками. 
+							Цифровые печатные машины для печати на бумаге и пластике. Офсетные печатные машины с превосходным качеством печати.</span>
 						</div>
 						<div class="f-left cat grid-width-222 grid-m-left-18">
 							<div class="center"><img src="/materials/pic2.jpg" alt=""></div>
+							<img src="../i/catalog-1.png" alt="">
 							<h5><a href="#" class="cat-link">Листорезальное (флаторезка) оборудование для бумаги и картона AYDIN</a></h5>
-							Высокоскоростная флаторезка предназначена для поперечной и продольной разрезки рулонной бумаги или картона на листы заданного формата.
+							<span class='text-mobile_none'>Высокоскоростная флаторезка предназначена для поперечной и продольной разрезки 
+							рулонной бумаги или картона на листы заданного формата.</span>
 						</div>
 						<div class="f-left cat grid-width-222 grid-m-left-18">
 							<div class="center"><img src="/materials/pic2.jpg" alt=""></div>
+							<img src="../i/catalog-1.png" alt="">
 							<h5><a href="#" class="cat-link">Машина для выборочного и сплошного УФ-лакирования AUTOBOND Spot UV и JetVarnish</a></h5>
-							Толщина слоя до 150 мкм за один прогон. Полимеризация УФ-лака светодиодными сушками. Низкое энергопотребление, высокая скорость, не требует вытяжек. Великолепное качество и простота использования.
+							<span class='text-mobile_none'>Толщина слоя до 150 мкм за один прогон. Полимеризация УФ-лака светодиодными сушками. 
+							Низкое энергопотребление, высокая скорость, не требует вытяжек. Великолепное качество и простота использования.</span>
 						</div>
 					</div>
 					
-					<div class="container">
+					<div class="container container_mobile">
 						<div class="f-left cat grid-width-222">
 							<div class="center"><img src="/materials/pic2.jpg" alt=""></div>
+							<img src="../i/catalog-1.png" alt="">
 							<h5><a href="#" class="cat-link">Послепечатное оборудование</a></h5>
-							Оборудование бумагорезальное, фальцевальное, листоподборочно-брошюровочное, термоклеевое, брошюровчное, для нумерации, персонализации и штрихкодирования, ламинирования и прочих операций послепечатной обработки продукции.
+							<span class='text-mobile_none'>Оборудование бумагорезальное, фальцевальное, листоподборочно-брошюровочное, термоклеевое, 
+							брошюровчное, для нумерации, персонализации и штрихкодирования, ламинирования и прочих операций 
+							послепечатной обработки продукции.</span>
 						</div>
 						<div class="f-left cat grid-width-222 grid-m-left-18">
 							<div class="center"><img src="/materials/pic2.jpg" alt=""></div>
+							<img src="../i/catalog-1.png" alt="">
 							<h5><a href="#" class="cat-link">Оборудование для производства пластиковых карт SPARTANICS</a></h5>
-							Оборудование для вырубки и счёта пластиковых карт.
+							<span class='text-mobile_none'>Оборудование для вырубки и счёта пластиковых карт.</span>
 						</div>
 						<div class="f-left cat grid-width-222 grid-m-left-18">
 							<div class="center"><img src="/materials/pic2.jpg" alt=""></div>
+							<img src="../i/catalog-1.png" alt="">
 							<h5><a href="#" class="cat-link">Оборудование для изготовления бесконвертных почтовых отправлений и фотоконвертов</a></h5>
-							Фальцевально-склеивающая машина MICROGLUER 4C для изготовления бесконвертных почтовых отправлений и фотоконвертов.
+							<span class='text-mobile_none'>Фальцевально-склеивающая машина MICROGLUER 4C для изготовления бесконвертных почтовых отправлений и фотоконвертов.</span>
 						</div>
 						<div class="f-left cat grid-width-222 grid-m-left-18">
 							<div class="center"><img src="/materials/pic2.jpg" alt=""></div>
+							<img src="../i/catalog-1.png" alt="">
 							<h5><a href="#" class="cat-link">Оборудование для нумерации и печати переменных данных</a></h5>
-							Промышленная каплеструйная система EMWI JET предназначена для печати переменных данных, нумерации и штрихкодирования.
+							<span class='text-mobile_none'>Промышленная каплеструйная система EMWI JET предназначена для печати переменных данных, нумерации и штрихкодирования.</span>
 						</div>
 					</div>
 					
-					<div class="container">
+					<div class="container container_mobile">
 						<div class="f-left cat grid-width-222">
 							<div class="center"><img src="/materials/pic2.jpg" alt=""></div>
+							<img src="../i/catalog-1.png" alt="">
 							<h5><a href="#" class="cat-link">Фальцевально-склеивающие машины PETRATTO для производства картонной упаковки</a></h5>
-							Фальцевально- склеивающие машины и линии для производства интегральной обложки. материал без остановки машины.
+							<span class='text-mobile_none'>Фальцевально- склеивающие машины и линии для производства интегральной обложки. материал без остановки машины.</span>
 						</div>
 						<div class="f-left cat grid-width-222 grid-m-left-18">
 							<div class="center"><img src="/materials/pic2.jpg" alt=""></div>
+							<img src="../i/catalog-1.png" alt="">
 							<h5><a href="#" class="cat-link">Оборудование для производства твердого переплета</a></h5>
-							Уникальные крышкоделательные машины от полуавтоматических до полных автоматов, книговставочные, штриховальные машины. Оборудование для обрезки углов и скругления корешка и отстава. Автоматические машины для производства фотоальбомов и детских книг склейкой.
+							<span class='text-mobile_none'>Уникальные крышкоделательные машины от полуавтоматических до полных автоматов, книговставочные, 
+							штриховальные машины. Оборудование для обрезки углов и скругления корешка и отстава. 
+							Автоматические машины для производства фотоальбомов и детских книг склейкой.</span>
 						</div>
 						<div class="f-left cat grid-width-222 grid-m-left-18">
 							<div class="center"><img src="/materials/pic2.jpg" alt=""></div>
+							<img src="../i/catalog-1.png" alt="">
 							<h5><a href="#" class="cat-link">Отделочное оборудование</a></h5>
-							Автоматические биговально-перфорационные машины, Уникальная скорость и качество выполняемых операция. Отрывная перфорация различной конфигурации, календарная перфорация, индексная вырубка, кругление корешка книжного блока, золочение среза книжного блока и др.
+							<span class='text-mobile_none'>Автоматические биговально-перфорационные машины, Уникальная скорость и качество выполняемых операция. 
+							Отрывная перфорация различной конфигурации, календарная перфорация, индексная вырубка, кругление 
+							корешка книжного блока, золочение среза книжного блока и др.</span>
 						</div>
 						<div class="f-left cat grid-width-222 grid-m-left-18">
 							<div class="center"><img src="/materials/pic2.jpg" alt=""></div>
+							<img src="../i/catalog-1.png" alt="">
 							<h5><a href="#" class="cat-link">C.P.BOURG, брошюровочное оборудование для цифровых печатных машин</a></h5>
-							Финишное оборудование C.P.Bourg —  полностью автоматическая система для финальной обработки листовых материалов не требующих подбора. Работают в линию с цифровыми печатными машинами Xerox, Canon, Kodak, Oce, Ricoh, и др.
+							<span class='text-mobile_none'>Финишное оборудование C.P.Bourg —  полностью автоматическая система для финальной обработки листовых 
+							материалов не требующих подбора. Работают в линию с цифровыми печатными машинами Xerox, Canon, Kodak, Oce, Ricoh, и др.</span>
 						</div>
 					</div>
 					
-					<div class="container">
+					<div class="container container_mobile">
 						<div class="f-left cat grid-width-222">
 							<div class="center"><img src="/materials/pic2.jpg" alt=""></div>
+							<img src="../i/catalog-1.png" alt="">
 							<h5><a href="#" class="cat-link">Photofast — машина для производства фотоальбомов</a></h5>
-							Photofast — автоматическая машина для изготовления качественных блоков для фотоальбомов небольшими и средними тиражами и с низкой себестоимостью.
+							<span class='text-mobile_none'>Photofast — автоматическая машина для изготовления качественных блоков для 
+							фотоальбомов небольшими и средними тиражами и с низкой себестоимостью.</span>
 						</div>
 						<div class="f-left cat grid-width-222 grid-m-left-18">
 							<div class="center"><img src="/materials/pic2.jpg" alt=""></div>
+							<img src="../i/catalog-1.png" alt="">
 							<h5><a href="#" class="cat-link">Устройства подсчета листов B.MATIC</a></h5>
-							Подсчет листов и одновременно разделение их на партии вставкой закладок. Высокая технологичность, компактность, подвижная конструкция, модульность конструкции, позволяют использовать их с практически любыми машинами (Sakurai, Heidelberg и многих других).
+							<span class='text-mobile_none'>Подсчет листов и одновременно разделение их на партии вставкой закладок. 
+							Высокая технологичность, компактность, подвижная конструкция, модульность 
+							конструкции, позволяют использовать их с практически любыми машинами (Sakurai, Heidelberg и многих других).</span>
 						</div>
 						<div class="f-left cat grid-width-222 grid-m-left-18">
 							<div class="center"><img src="/materials/pic2.jpg" alt=""></div>
+							<img src="../i/catalog-1.png" alt="">
 							<h5><a href="#" class="cat-link">Конвертовально-вставочные машины GRUTZMACHER</a></h5>
-							Высокоскоростные конвертовставочные машины, упаковочные машины, сортировально-подборочные машины, системы независимой подачи листов.
+							<span class='text-mobile_none'>Высокоскоростные конвертовставочные машины, упаковочные машины, 
+							сортировально-подборочные машины, системы независимой подачи листов.</span>
 						</div>
 						<div class="f-left cat grid-width-222 grid-m-left-18">
 							<div class="center"><img src="/materials/pic2.jpg" alt=""></div>
+							<img src="../i/catalog-1.png" alt="">
 							<h5><a href="#" class="cat-link">Машины для фальцовки постеров и билбордов PETRATTO</a></h5>
-							Биговально-фальцевальные машины для ножевой биговки и последующей фальцовки бумаги и картона в линию. Высокоскоростные автоматические машины для работы с бумагами плотностью до 600 г/м2<br>
-							Возможность оконного фальца.
+							<span class='text-mobile_none'>Биговально-фальцевальные машины для ножевой биговки и последующей фальцовки 
+							бумаги и картона в линию. Высокоскоростные автоматические машины для работы с бумагами плотностью до 600 г/м2<br>
+							Возможность оконного фальца.</span>
 						</div>
 					</div>
 					
-					<div class="container">
+					<div class="container container_mobile">
 						<div class="f-left cat grid-width-222">
 							<div class="center"><img src="/materials/pic2.jpg" alt=""></div>
+							<img src="../i/catalog-1.png" alt="">
 							<h5><a href="#" class="cat-link">Биговально-фальцевальные комплексы BACCIOTTINI и PETRATTO</a></h5>
-							Биговально-фальцевальные машины для ножевой биговки и последующей фальцовки бумаги и картона в линию. Высокоскоростные автоматические машины для работы с бумагами плотностью до 600 г/м2<br>
-							Возможность оконного фальца.
+							<span class='text-mobile_none'>Биговально-фальцевальные машины для ножевой биговки и последующей фальцовки бумаги и 
+							картона в линию. Высокоскоростные автоматические машины для работы с бумагами плотностью до 600 г/м2<br>
+							Возможность оконного фальца.</span>
 						</div>
 						<div class="f-left cat grid-width-222 grid-m-left-18">
 							<div class="center"><img src="/materials/pic2.jpg" alt=""></div>
+							<img src="../i/catalog-1.png" alt="">
 							<h5><a href="#" class="cat-link">Автоматические линии EUROPROGETTI для создания кашированных жестких коробок (rigidbox)</a></h5>
-							Компания Europrogetti занимается производством автоматических линий для создания кашированных жестких коробок для парфюмерии, косметики, одежды, обуви, ювелирных украшений, печатной и медиапродукции, настольных игр и т. п.
+							<span class='text-mobile_none'>Компания Europrogetti занимается производством автоматических линий для 
+							создания кашированных жестких коробок для парфюмерии, косметики, одежды, 
+							обуви, ювелирных украшений, печатной и медиапродукции, настольных игр и т. п.</span>
 						</div>
 						<div class="f-left cat grid-width-222 grid-m-left-18">
 							<div class="center"><img src="/materials/pic2.jpg" alt=""></div>
+							<img src="../i/catalog-1.png" alt="">
 							<h5><a href="#" class="cat-link">Бумагосверлильное оборудование и обрезчики углов</a></h5>
 						</div>
 					</div>
@@ -254,28 +324,52 @@
 		</div>
 	</div>
 	<footer>
-		<div class="grid-width-942 center-block container grid-p-top-25">
-			<div class="f-left grid-width-174 grid-p-right-18">
+
+		<!-- FOOTER CONTENT -->
+
+		<div class="grid-width-942 center-block container grid-p-top-25 footer__content">
+			<div class="f-left grid-width-174 grid-p-right-18 footer__decs">
 				&copy;&nbsp;2006-2013&nbsp;SupplyLand<br>
 				<a href="mailto:info@supplyland.ru">info@supplyland.ru</a>
 			</div>
-			<div class="f-left grid-width-126 grid-p-right-18">
+			<div class="f-left grid-width-174 grid-p-right-18 footer__mobile footer__email">
+				<a href="mailto:info@supplyland.ru">info@supplyland.ru</a>
+			</div>
+			<div class="footer__adress">115054, Москва, ул. Дубининская, д. 57, <br> строение 1, офис 409</div>
+			<div class="footer__links f-left grid-width-126 grid-p-right-18">
 				<a href="#">Наша география</a><br>
 				<a href="#">События</a>
 			</div>
-			<div class="f-left grid-width-174 grid-p-right-18">
+			<div class="footer__links f-left grid-width-174 grid-p-right-18 mobile-links">
+				<a href="#">Специальные предложения</a><br>
+				<a href="#">Сертификаты</a><br>
+				<a href="#">Заявка на вызов инженера</a>
+			</div>
+			<div class="footer__links f-left grid-width-174 grid-p-right-18">
 				<a href="#">Заявка на сервис</a><br>
 				<a href="#">Заявка на запасные части</a><br>
 				<a href="#">Запрос инструкции</a>
 			</div>
-			<div class="f-left grid-width-270 grid-p-right-18">
+			<div class=" f-left grid-width-270 grid-p-right-18 footer__status">
 				<div class="grid-m-bottom-5">Проверка статуса заявки</div>
-				<input type="text" name="check" placeholder="Введите номер">&nbsp;<span class="button">Проверить</span>
+				<input type="text" name="check" placeholder="Введите номер">&nbsp;<span class="button inactive">Проверить</span>
 			</div>
-			<div class="f-left">
-				<a href="http://one-touch.ru" class="copyright">Создание сайтов<br><img src="/i/one-touch.png"></a>
+			<div class="f-left footer__logo">
+				<a href="http://one-touch.ru" class="copyright">Создание сайтов<br><img src="../i/one-touch.png"></a>
+			</div>
+			<div class="f-left footer__logo-mobile">
+				&copy;&nbsp;2006-2020&nbsp;SupplyLand<br>
 			</div>
 		</div>
+
+		<!-- FOOTER CONTENT -->
+
+		<div class="up">
+			<a class='to-the-top' href="#nav">
+				<img src="../i/to-the-top.png" alt="">
+			</a>
+		</div>
+
 	</footer>
 </body>
 </html>
