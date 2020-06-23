@@ -578,7 +578,7 @@ footer .mobile-links {
   .form__container {
     display: flex;
     flex-direction: column;
-    width: 75%;
+    width: 100%;
   }
   .form__container input {
     width: 98% !important;
@@ -598,7 +598,7 @@ footer .mobile-links {
     margin: 0 !important;
   }
   .form__container_2 textarea {
-    width: 96% !important;
+    width: 94% !important;
   }
   .form__line {
     display: block;
