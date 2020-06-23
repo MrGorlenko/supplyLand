@@ -13,6 +13,7 @@ $(document).ready(function(){
           direction: 'horizontal',
           loop: false,
           initialSlide: 0,
+          slidesPerView: 1.5,
           spaceBetween: 22
       })
 
