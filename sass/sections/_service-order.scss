@@ -1,0 +1,50 @@
+@media (max-width: 992px){
+    .service-order{
+        padding-bottom: 15px !important;
+        &__title{
+            display: none;
+        }
+        &__subtitle{
+            display: none;
+        }
+
+        &__form{
+            box-shadow: 0px 8px 45px rgba(0, 0, 0, 0.09);
+            width: 90%;
+        }
+    }
+
+    .form{
+        &__container{
+            display: flex;
+            flex-direction: column;
+
+            input{
+                width: 98% !important;
+                padding: 0 !important;
+                margin: 0 !important;
+            }
+
+            textarea{
+                width: 94% !important;
+            }
+        }
+
+        &__label{
+            margin-bottom: 12px;
+            font-size: 17px;
+            width: 100%;
+        }
+
+        &__button{
+            margin-left: 0 !important;
+            width: 147px;
+            height: 15px;
+            display: block;
+            padding: 16px 20px;
+            background: #A6A6A6;
+            font-size: 17px;
+        }
+
+    }
+}
