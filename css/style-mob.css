@@ -573,6 +573,7 @@ footer .mobile-links {
   }
   .line__container {
     position: relative;
+    width: 100%;
   }
   .form__container {
     display: flex;
@@ -591,19 +592,19 @@ footer .mobile-links {
     flex-direction: column;
   }
   .form__container_2 input {
-    width: 90% !important;
+    width: 98% !important;
     padding: 0 !important;
     margin: 0 !important;
   }
   .form__container_2 textarea {
-    width: 88% !important;
+    width: 96% !important;
   }
   .form__line {
     display: block;
     background: #E9E9E9;
     z-index: 20;
     position: absolute;
-    width: 78%;
+    width: 88%;
     left: 29px;
     top: 0px;
   }

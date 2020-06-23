@@ -20,6 +20,7 @@
 
     .line__container{
         position: relative;
+        width: 100%;
     }
 
     .form{
@@ -43,13 +44,13 @@
             flex-direction: column;
             
             input{
-                width: 90% !important;
+                width: 98% !important;
                 padding: 0 !important;
                 margin: 0 !important;
             }
 
             textarea{
-                width: 88% !important;
+                width: 96% !important;
             }
 
         }
@@ -61,7 +62,7 @@
             z-index: 20;
             position: absolute;
 
-            width: 78%;
+            width: 88%;
             left: 29px;
 
             top: 0px;
