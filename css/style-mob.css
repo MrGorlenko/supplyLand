@@ -553,6 +553,10 @@ footer .mobile-links {
   }
 }
 
+.form__line {
+  display: none;
+}
+
 @media (max-width: 992px) {
   .service-order {
     padding-bottom: 15px !important;
@@ -567,6 +571,9 @@ footer .mobile-links {
     box-shadow: 0px 8px 45px rgba(0, 0, 0, 0.09);
     width: 90%;
   }
+  .line__container {
+    position: relative;
+  }
   .form__container {
     display: flex;
     flex-direction: column;
@@ -578,6 +585,27 @@ footer .mobile-links {
   }
   .form__container textarea {
     width: 94% !important;
+  }
+  .form__container_2 {
+    display: flex;
+    flex-direction: column;
+  }
+  .form__container_2 input {
+    width: 90% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  .form__container_2 textarea {
+    width: 88% !important;
+  }
+  .form__line {
+    display: block;
+    background: #E9E9E9;
+    z-index: 20;
+    position: absolute;
+    width: 78%;
+    left: 29px;
+    top: 0px;
   }
   .form__label {
     margin-bottom: 12px;
@@ -592,6 +620,18 @@ footer .mobile-links {
     padding: 16px 20px;
     background: #A6A6A6;
     font-size: 17px;
+  }
+  .form__choses {
+    padding: 0;
+    margin: 29px;
+  }
+  .materials-order__global {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+  }
+  .grid-border-right-1 {
+    border-right: none;
   }
 }
 
