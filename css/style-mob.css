@@ -869,12 +869,15 @@ footer .mobile-links {
   .container_mobile .cat {
     width: 46%;
     margin-left: 0;
-    height: 242px;
+    height: 270px;
     box-shadow: 0px 8px 40px rgba(0, 0, 0, 0.08);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+  }
+  .container_mobile .cat .center img {
+    display: none;
   }
   .container_mobile .cat h5 {
     margin-top: 25px;
