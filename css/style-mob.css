@@ -660,6 +660,9 @@ footer .mobile-links {
   .grid-m-bottom-65 {
     margin-bottom: 65px;
   }
+  .grid-m-left-18 {
+    margin-left: 0;
+  }
   .content-desctop {
     display: none;
   }
