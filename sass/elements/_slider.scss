@@ -190,13 +190,50 @@
         box-sizing: border-box;
         padding: 10px 0;
       }
+
+      .gallery-thumbs-2 {
+        height: 20%;
+        box-sizing: border-box;
+        padding: 10px 0;
+      }
+
+      .gallery-thumbs-3 {
+        height: 20%;
+        box-sizing: border-box;
+        padding: 10px 0;
+      }
   
       .gallery-thumbs .swiper-slide {
         width: 25%;
         height: 100%;
         opacity: 0.4;
       }
+
+      .gallery-thumbs-2 .swiper-slide {
+        width: 25%;
+        height: 100%;
+        opacity: 0.4;
+      }
+
+      .gallery-thumbs-3 .swiper-slide {
+        width: 25%;
+        height: 100%;
+        opacity: 0.4;
+      }
+
+      
       .gallery-thumbs .swiper-slide-thumb-active {
+        border: 2.8px solid #2756A5;
+        opacity: 1;
+      }
+
+      .gallery-thumbs-2 .swiper-slide-thumb-active {
+        border: 2.8px solid #2756A5;
+        opacity: 1;
+      }
+
+      .gallery-thumbs-3 .swiper-slide-thumb-active {
+        border: 2.8px solid #2756A5;
         opacity: 1;
       }
 

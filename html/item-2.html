@@ -24,6 +24,13 @@
     
     <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+		
     
     <script src="https://unpkg.com/swiper/js/swiper.js"></script>
 	<script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
@@ -36,55 +43,6 @@
     <script src='../js/mobile/mobile.js'></script>
     <script src='../js/mobile/swiper.js'></script>
 
-    <style>
-        html,
-        body {
-          position: relative;
-          height: 100%;
-        }
-    
-        body {
-          background: #000;
-          font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-          font-size: 14px;
-          color: #000;
-          margin: 0;
-          padding: 0;
-        }
-    
-        .swiper-container {
-          width: 100%;
-          height: 300px;
-          margin-left: auto;
-          margin-right: auto;
-        }
-    
-        .swiper-slide {
-          background-size: cover;
-          background-position: center;
-        }
-    
-        .gallery-top {
-          height: 80%;
-          width: 100%;
-        }
-    
-        .gallery-thumbs {
-          height: 20%;
-          box-sizing: border-box;
-          padding: 10px 0;
-        }
-    
-        .gallery-thumbs .swiper-slide {
-          width: 25%;
-          height: 100%;
-          opacity: 0.4;
-        }
-    
-        .gallery-thumbs .swiper-slide-thumb-active {
-          opacity: 1;
-        }
-      </style>
 
 	
 </head>
@@ -147,28 +105,78 @@
                 <!-- /ГЛАВНОЕ МЕНЮ -->
             </header>
 
-    <!-- Swiper -->
-    <div class="swiper-container gallery-top">    
-        <div class="swiper-wrapper">
-          <div class="swiper-slide" style="background-image:url('../i/item-1.png')"></div>
-          <div class="swiper-slide" style="background-image:url('../i/item-1.png')"></div>
-          <div class="swiper-slide" style="background-image:url('../i/item-1.png')"></div>
-          <div class="swiper-slide" style="background-image:url('../i/item-1.png')"></div>
-          <div class="swiper-slide" style="background-image:url('../i/item-1.png')"></div>
-        </div>
-        <!-- Add Arrows -->
-        <div class="swiper-button-next swiper-button-white"></div>
-        <div class="swiper-button-prev swiper-button-white"></div>
+
+
+            <!-- Slider main container -->
+            <div class="swiper-container-4">
+              <!-- Additional required wrapper -->
+              <div class="swiper-wrapper">
+                  <!-- Slides -->
+
+                  <div class="swiper-slide">
+
+                    <div>
+                              <!-- LOCAL SLIDER -->
+
+        <div class="swiper-container-3 gallery-top">
+          <div class="swiper-wrapper swiper-wrapper-top">
+              <div class="swiper-slide swiper-slide-top" style="background-image:url('../i/item-1.png')"></div>
+              <div class="swiper-slide swiper-slide-top" style="background-image:url('../i/item-1.png')"></div>
+              <div class="swiper-slide swiper-slide-top" style="background-image:url('../i/item-1.png')"></div>
+          </div> 
+          <div class="swiper-button-next swiper-button-next-1 swiper-button-black swiper-button-item-1"></div>
+          <div class="swiper-button-prev swiper-button-prev-1 swiper-button-black swiper-button-item-1"></div>
       </div>
-      <div class="swiper-container gallery-thumbs">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide" style="background-image:url('../i/item-1.png')"></div>
-          <div class="swiper-slide" style="background-image:url('../i/item-1.png')"></div>
-          <div class="swiper-slide" style="background-image:url('../i/item-1.png')"></div>
-          <div class="swiper-slide" style="background-image:url('../i/item-1.png')"></div>
-          <div class="swiper-slide" style="background-image:url('../i/item-1.png')"></div>
-        </div>
+          
+      <div class="gallery-thumbs">
+          <div class="swiper-wrapper swiper-wrapper-bottom">
+              <div class="swiper-slide swiper-slide-bottom" style="background-image:url('../i/item-1.png')"></div>
+              <div class="swiper-slide swiper-slide-bottom" style="background-image:url('../i/item-1.png')"></div>
+              <div class="swiper-slide swiper-slide-bottom" style="background-image:url('../i/item-1.png')"></div>
+          </div>
       </div>
+
+  <!-- LOCAL SLIDER -->
+                    </div>
+
+                  </div>
+                  <div class="swiper-slide">
+
+                    <div></div>
+
+                  </div>
+                  <div class="swiper-slide">
+
+                    <div></div>
+
+                  </div>
+
+              </div>
+            </div>
+
+
+
+        <!-- LOCAL SLIDER -->
+<!-- 
+        <div class="swiper-container-3 gallery-top">
+                <div class="swiper-wrapper swiper-wrapper-top">
+                    <div class="swiper-slide swiper-slide-top" style="background-image:url('../i/item-1.png')"></div>
+                    <div class="swiper-slide swiper-slide-top" style="background-image:url('../i/item-1.png')"></div>
+                    <div class="swiper-slide swiper-slide-top" style="background-image:url('../i/item-1.png')"></div>
+                </div> 
+                <div class="swiper-button-next swiper-button-next-1 swiper-button-black swiper-button-item-1"></div>
+                <div class="swiper-button-prev swiper-button-prev-1 swiper-button-black swiper-button-item-1"></div>
+            </div>
+                
+            <div class="gallery-thumbs">
+                <div class="swiper-wrapper swiper-wrapper-bottom">
+                    <div class="swiper-slide swiper-slide-bottom" style="background-image:url('../i/item-1.png')"></div>
+                    <div class="swiper-slide swiper-slide-bottom" style="background-image:url('../i/item-1.png')"></div>
+                    <div class="swiper-slide swiper-slide-bottom" style="background-image:url('../i/item-1.png')"></div>
+                </div>
+            </div> -->
+
+        <!-- LOCAL SLIDER -->
 
         </div>
     </div>
@@ -190,6 +198,13 @@
           thumbs: {
             swiper: galleryThumbs
           }
+        });
+      </script>
+
+      <script type="text/javascript">
+        $(document).ready(function(){
+          $('.your-class').slick({
+          });
         });
       </script>
 </body>

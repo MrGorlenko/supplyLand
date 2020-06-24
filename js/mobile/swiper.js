@@ -22,29 +22,11 @@ $(document).ready(function(){
         initialSlide: 0,
         slidesPerView: 1,
         navigation: {
-            nextEl: '.swiper-button-next-2',
-            prevEl: '.swiper-button-prev-2',
+            nextEl: '.swiper-button-next-0',
+            prevEl: '.swiper-button-prev-0',
           }
     });
 
-      // var galleryThumbs = new Swiper('.gallery-thumbs', {
-      //   spaceBetween: 10,
-      //   slidesPerView: 4,
-      //   freeMode: true,
-      //   watchSlidesVisibility: true,
-      //   watchSlidesProgress: true
-      // });
-      // var galleryTop = new Swiper('.gallery-top', {
-      //   spaceBetween: 20,
-      //   slidesPerView: 1,
-      //   navigation: {
-      //     nextEl: '.swiper-button-next-1',
-      //     prevEl: '.swiper-button-prev-1',
-      //   },
-      //   thumbs: {
-      //     swiper: galleryThumbs
-      //   }
-      // });
 
       var galleryThumbs = new Swiper('.gallery-thumbs', {
         spaceBetween: 10,
@@ -59,9 +41,46 @@ $(document).ready(function(){
           nextEl: '.swiper-button-next-1',
           prevEl: '.swiper-button-prev-1',
         },
-        // thumbs: {
-        //   swiper: galleryThumbs
-        // }
+        thumbs: {
+          swiper: galleryThumbs
+        }
+      });
+
+
+      var galleryThumbs2 = new Swiper('.gallery-thumbs-2', {
+        spaceBetween: 10,
+        slidesPerView: 4,
+        freeMode: true,
+        watchSlidesVisibility: true,
+        watchSlidesProgress: true,
+      });
+      var galleryTop2 = new Swiper('.gallery-top-2', {
+        spaceBetween: 10,
+        navigation: {
+          nextEl: '.swiper-button-next-2',
+          prevEl: '.swiper-button-prev-2',
+        },
+        thumbs: {
+          swiper: galleryThumbs2
+        }
+      });
+
+      var galleryThumbs3 = new Swiper('.gallery-thumbs-3', {
+        spaceBetween: 10,
+        slidesPerView: 4,
+        freeMode: true,
+        watchSlidesVisibility: true,
+        watchSlidesProgress: true,
+      });
+      var galleryTop3 = new Swiper('.gallery-top-3', {
+        spaceBetween: 10,
+        navigation: {
+          nextEl: '.swiper-button-next-3',
+          prevEl: '.swiper-button-prev-3',
+        },
+        thumbs: {
+          swiper: galleryThumbs3
+        }
       });
 
     //   mySwiper3 = new Swiper ('.swiper-container-3', {
