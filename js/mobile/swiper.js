@@ -14,7 +14,66 @@ $(document).ready(function(){
           loop: false,
           initialSlide: 0,
           slidesPerView: 1,
-      })
+      });
+
+      mySwiper4 = new Swiper ('.swiper-container-4', {
+        direction: 'horizontal',
+        loop: false,
+        initialSlide: 0,
+        slidesPerView: 1,
+        navigation: {
+            nextEl: '.swiper-button-next-2',
+            prevEl: '.swiper-button-prev-2',
+          }
+    });
+
+      // var galleryThumbs = new Swiper('.gallery-thumbs', {
+      //   spaceBetween: 10,
+      //   slidesPerView: 4,
+      //   freeMode: true,
+      //   watchSlidesVisibility: true,
+      //   watchSlidesProgress: true
+      // });
+      // var galleryTop = new Swiper('.gallery-top', {
+      //   spaceBetween: 20,
+      //   slidesPerView: 1,
+      //   navigation: {
+      //     nextEl: '.swiper-button-next-1',
+      //     prevEl: '.swiper-button-prev-1',
+      //   },
+      //   thumbs: {
+      //     swiper: galleryThumbs
+      //   }
+      // });
+
+      var galleryThumbs = new Swiper('.gallery-thumbs', {
+        spaceBetween: 10,
+        slidesPerView: 4,
+        freeMode: true,
+        watchSlidesVisibility: true,
+        watchSlidesProgress: true,
+      });
+      var galleryTop = new Swiper('.gallery-top', {
+        spaceBetween: 10,
+        navigation: {
+          nextEl: '.swiper-button-next-1',
+          prevEl: '.swiper-button-prev-1',
+        },
+        // thumbs: {
+        //   swiper: galleryThumbs
+        // }
+      });
+
+    //   mySwiper3 = new Swiper ('.swiper-container-3', {
+    //     direction: 'horizontal',
+    //     loop: false,
+    //     initialSlide: 0,
+    //     slidesPerView: 1, 
+    //     // navigation: {
+    //     //     nextEl: '.swiper-button-next',
+    //     //     prevEl: '.swiper-button-prev',
+    //     //   },
+    // })
 
     let arr = [$('.swiper__button_1'), $('.swiper__button_2'), $('.swiper__button_3'), $('.swiper__button_4'), $('.swiper__button_5')],
 

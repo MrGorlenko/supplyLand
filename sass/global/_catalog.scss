@@ -60,5 +60,15 @@
         &__price{
             font-size: 17px;
         }
+
+        &-catalog{
+            height: 4020px;
+            padding-bottom: 0 !important;
+        }
+
+        &-logo{
+            margin: auto;
+            display: block;
+        }
     }
 }
