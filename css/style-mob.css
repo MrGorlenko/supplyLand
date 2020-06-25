@@ -935,6 +935,12 @@ footer .mobile-links {
     font-size: 17px;
     width: 90%;
   }
+  .brands-container .paragraph {
+    margin-bottom: 25px;
+  }
+  .brands-container a {
+    font-size: 15px !important;
+  }
   .brand-item {
     display: flex;
     flex-direction: column;
@@ -943,6 +949,7 @@ footer .mobile-links {
     width: 80%;
   }
   .brand-item a {
+    font-size: 17px;
     margin-top: 22px;
     display: inline-block;
     border: none;
