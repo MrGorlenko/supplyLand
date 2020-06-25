@@ -17,7 +17,15 @@ footer{
     }
 }
 
+.footer-for-contacts{
+    display: none;
+}
+
 @media (max-width: 992px){
+
+    .footer-contacts{
+        height: 710px;
+    }
 
     footer{
         background: none;
@@ -28,6 +36,12 @@ footer{
             display: block;
         }
 
+    }
+
+    .footer-for-contacts{
+        display: block;
+        height: 310px;
+        margin-top: -100px;
     }
 
     .footer-main{

@@ -495,7 +495,14 @@ footer .mobile-links {
   display: none;
 }
 
+.footer-for-contacts {
+  display: none;
+}
+
 @media (max-width: 992px) {
+  .footer-contacts {
+    height: 710px;
+  }
   footer {
     background: none;
     height: 505px;
@@ -503,6 +510,11 @@ footer .mobile-links {
   }
   footer .mobile-links {
     display: block;
+  }
+  .footer-for-contacts {
+    display: block;
+    height: 310px;
+    margin-top: -100px;
   }
   .footer-main {
     margin-top: 600px;
@@ -857,6 +869,53 @@ footer .mobile-links {
   }
   .grid-border-right-1 {
     border-right: none;
+  }
+}
+
+@media (max-width: 992px) {
+  .i-controls {
+    display: none;
+  }
+  .contacts__global {
+    overflow: visible !important;
+  }
+  .contacts-map {
+    position: relative;
+  }
+  .info-section {
+    position: absolute;
+    top: 410px;
+    width: 100%;
+  }
+  .info-block_mobile {
+    width: 261px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 12px 45px rgba(0, 0, 0, 0.08);
+    padding: 28px 25px;
+    margin: auto;
+  }
+  .info-block_mobile img {
+    order: 5;
+    height: 180px;
+  }
+  .info-block_mobile .phone-mobile_none {
+    display: none;
+  }
+  .info-block_mobile .i-clock {
+    position: relative;
+    padding-left: 27px;
+  }
+  .info-block_mobile .i-clock:before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 19px;
+    height: 18px;
+    background: url("../i/clock.png") no-repeat;
+    background-size: 18px;
   }
 }
 
