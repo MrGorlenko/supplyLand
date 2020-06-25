@@ -1,0 +1,49 @@
+@media(max-width:992px){
+
+    .brands-container{
+
+        margin-top: 42px;
+
+        padding-left: 3%;
+
+        .swiper-container-2{
+            width: 97%;
+        }
+
+        h3{
+            font-size: 24px;
+        }
+
+        p{
+            margin-top: 20px;
+            font-size: 17px;
+            width: 90%;
+        }
+    }
+
+    .brand-item{
+        display: flex;
+        flex-direction: column;
+
+        img{
+            width: 80%;
+        }
+
+        a{
+            margin-top: 22px;
+            display: inline-block;
+            border: none;
+            text-decoration: underline;
+        }
+
+        p{
+            overflow: visible;
+            margin-top: 15px;
+        }
+    }
+
+    .swiper_title-brands{
+        margin-top: 70px;
+        margin-bottom: 45px;
+    }
+}
