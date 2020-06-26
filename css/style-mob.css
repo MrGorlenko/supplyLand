@@ -479,6 +479,123 @@
   }
 }
 
+.authorization h1 {
+  font-size: 34px;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.authorization form {
+  width: 656px;
+  height: 530px;
+  margin: auto;
+  background: #fff;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: #000;
+  margin-bottom: 157px;
+}
+
+.authorization form input {
+  width: 309px;
+}
+
+.authorization form .label {
+  width: 190px;
+}
+
+.authorization .p2 {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.authorization .p2 .form__button {
+  width: 200px;
+  height: 44px;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 87px !important;
+}
+
+.authorization .p2 .capcha {
+  width: 200px;
+  height: 44px;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 87px !important;
+  border: 1px solid;
+  margin-top: 32px;
+  margin-bottom: 26px;
+}
+
+@media (max-width: 992px) {
+  .authorization {
+    padding-bottom: 58px !important;
+  }
+  .authorization h1 {
+    margin-top: 34px;
+    margin-bottom: 34px;
+  }
+  .authorization form {
+    width: 95%;
+    height: 1150px;
+    margin: auto;
+    background: #fff;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #000;
+    box-shadow: 0px 8px 45px rgba(0, 0, 0, 0.09);
+  }
+  .authorization form input {
+    width: 309px;
+    height: 51px;
+  }
+  .authorization form .label {
+    width: 215px;
+  }
+  .authorization .p2 {
+    padding: 29px;
+    justify-content: initial;
+    align-items: flex-start;
+  }
+  .authorization .p2 .form__container {
+    height: 95px;
+    margin-top: 28px;
+    margin-bottom: 28px;
+  }
+  .authorization .p2 .form__button {
+    width: 178px;
+    height: 52px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0px !important;
+  }
+  .authorization .p2 .capcha {
+    width: 100%;
+    height: 77px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0px !important;
+    border: 1px solid;
+    margin-top: 32px;
+    margin-bottom: 26px;
+  }
+}
+
 .footer__adress {
   display: none;
 }
