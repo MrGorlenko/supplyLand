@@ -154,10 +154,11 @@
     }
 
     .way{
+        padding-left: 2%;
         height: 580px;
         flex-direction: column;
         & .item{
-            width: 100%;
+            width: 98%;
 
             p{
                 position: absolute;

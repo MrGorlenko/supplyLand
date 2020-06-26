@@ -1533,11 +1533,12 @@ footer .mobile-links {
     font-size: 24px;
   }
   .way {
+    padding-left: 2%;
     height: 580px;
     flex-direction: column;
   }
   .way .item {
-    width: 100%;
+    width: 98%;
   }
   .way .item p {
     position: absolute;
