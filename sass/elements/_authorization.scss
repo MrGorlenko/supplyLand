@@ -86,7 +86,7 @@
 
             
             width:  90%;
-            height: 1150px;
+            height: 900px;
             margin: auto;
             background: #fff;
             
@@ -99,7 +99,7 @@
     
             input{
                 width: 309px;
-                height: 51px;
+                // height: 51px;
             }
     
             .label{
@@ -113,11 +113,11 @@
             padding: 29px;
             justify-content: initial;
             align-items: flex-start;
-            .form__container{
-                height: 95px;
+            & .form__container{
+                height: 75px;
 
-                margin-top: 28px;
-                margin-bottom: 28px;
+                margin-top: 28px !important;
+                margin-bottom: 0px !important;
             }
 
             & .form__button{

@@ -547,7 +547,7 @@
   }
   .authorization form {
     width: 90%;
-    height: 1150px;
+    height: 900px;
     margin: auto;
     background: #fff;
     font-style: normal;
@@ -558,7 +558,6 @@
   }
   .authorization form input {
     width: 309px;
-    height: 51px;
   }
   .authorization form .label {
     width: 215px;
@@ -569,9 +568,9 @@
     align-items: flex-start;
   }
   .authorization .p2 .form__container {
-    height: 95px;
-    margin-top: 28px;
-    margin-bottom: 28px;
+    height: 75px;
+    margin-top: 28px !important;
+    margin-bottom: 0px !important;
   }
   .authorization .p2 .form__button {
     width: 178px;
