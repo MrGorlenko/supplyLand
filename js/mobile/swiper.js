@@ -99,6 +99,18 @@ $(document).ready(function(){
     aboutConent = [$('.about-content-1'), $('.about-content-2'), $('.about-content-3'), $('.about-content-4'), $('.about-content-5')];
 
 
+    // let func = (arr, button) => {
+    //   for (let i = 0; i < arr.length; i++){
+    //     if (arr[i]==button){
+    //       arr[i].addClass('swiper__button_active');
+    //     } else {
+    //       arr[i].removeClass('swiper__button_active')
+    //     }
+    //     return arr
+    //   }
+    // }
+
+
     arr[1].click(function(){
         arr[0].removeClass('swiper__button_active')
         arr[1].addClass('swiper__button_active')
