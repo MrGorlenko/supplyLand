@@ -82,33 +82,9 @@ $(document).ready(function(){
           swiper: galleryThumbs3
         }
       });
-
-    //   mySwiper3 = new Swiper ('.swiper-container-3', {
-    //     direction: 'horizontal',
-    //     loop: false,
-    //     initialSlide: 0,
-    //     slidesPerView: 1, 
-    //     // navigation: {
-    //     //     nextEl: '.swiper-button-next',
-    //     //     prevEl: '.swiper-button-prev',
-    //     //   },
-    // })
-
     let arr = [$('.swiper__button_1'), $('.swiper__button_2'), $('.swiper__button_3'), $('.swiper__button_4'), $('.swiper__button_5')],
 
     aboutConent = [$('.about-content-1'), $('.about-content-2'), $('.about-content-3'), $('.about-content-4'), $('.about-content-5')];
-
-
-    // let func = (arr, button) => {
-    //   for (let i = 0; i < arr.length; i++){
-    //     if (arr[i]==button){
-    //       arr[i].addClass('swiper__button_active');
-    //     } else {
-    //       arr[i].removeClass('swiper__button_active')
-    //     }
-    //     return arr
-    //   }
-    // }
 
 
     arr[1].click(function(){

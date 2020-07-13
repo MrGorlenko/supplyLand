@@ -20,7 +20,12 @@
 	
 	<!--[if lt IE 9]>
 	<script src="/js/html5.js"></script>
-	<![endif]-->
+  <![endif]-->
+  
+   <!-- SWIPER -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/css/swiper.min.css">
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/js/swiper.min.js"></script>
+   <!-- SWIPER -->
 	
 	<script src="../js/jcarousellite.js"></script>
 	
@@ -115,12 +120,41 @@
 
       <div class="inst">
         <div class="inst-top">
-          <img src="../i/grey.jpg" alt="">
+          <img src="../i/logo-inst.png" alt="">
           <p>supply_land</p>
         </div>
-        <img class='main-pic' src="../i/grey.jpg" alt="">
+
+        <!-- Slider main container -->
+        <div class="swiper-container">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide swiper-cont">
+            <img src="../i/grey.jpg" alt="">
+          </div>
+          <div class="swiper-slide swiper-cont">
+            <img src="../i/black.jpeg" alt="">
+          </div>
+          <div class="swiper-slide swiper-cont">
+            <img src="../i/pink.jpg" alt="">
+          </div>
+          </div>
+          <!-- If we need pagination -->
+          <div class="swiper-pagination"></div>
+        </div>
+
         <div class="inst-bottom">
-          
+
+          <img src="../i/like.png" alt="" class="like">
+          <img src="../i/comment.png" alt="" class="comment">
+          <img src="../i/send.png" alt="" class="send">
+
+          <img src="../i/mark.png" alt="" class='mark'>
+
+          <p class="likes">Нравится: 565</p>
+          <p class="report"> <span>supply_land</span> #фотоотчет </p>
+          <p class="about"><span>Крышкодельная машина</span> <br> <span>MEGABOUND ACTIVE DUAL AUTO</span> <br> в типографии "РАДУГА" (Москва) </p>
+
         </div>
       </div>
 
@@ -175,6 +209,8 @@
 			</a>
 		</div>
 
-	</footer>
+  </footer>
+  
+  <script src='../js/mobile/news-slider.js'></script>
 </body>
 </html>
