@@ -951,6 +951,12 @@
   }
 }
 
+@media (min-width: 993px) {
+  .inst {
+    display: none;
+  }
+}
+
 .inst {
   height: 590px;
 }
